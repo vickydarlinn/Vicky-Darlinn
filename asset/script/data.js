@@ -55,12 +55,12 @@ const projectData = [
     category: "neog",
     title: "Profit and loss in stocks",
     description: `In this web app we check How much profit or loss we got in Stock Market`,
-    challenge: `Profit and loss challenges`,
+    challenge: `In Profit and loss challenge, I learnd about element.style.<cssPropertyName>.`,
     language: ["html", "css", "Javascript"],
-    img: `./asset/img/lphd7s3gcbcgcxmfjt19.jpg`,
+    img: `./asset/img/stocks.jpg`,
     imgDescription: "stocks p&l checker",
-    githubCode: "https://github.com/vickydarlinn",
-    livePreview: "https://twitter.com/utpalsangwan",
+    githubCode: "https://github.com/vickydarlinn/Stocks-calculator-neog",
+    livePreview: "https://stock-calculator-neog.netlify.app/",
   },
   {
     category: "neog",
@@ -97,7 +97,7 @@ const projectData = [
   },
   {
     category: "neog",
-    title: "Fun with Triangle",
+    title: "Fun with Triangles",
     description: `This is web app to check user's knwoledge about triangles!`,
     challenge: `During making this web app I learned about mahth.random method`,
     language: ["html", "css", "Javascript"],
@@ -105,6 +105,18 @@ const projectData = [
     imgDescription: "Fun with Triangle",
     githubCode: "https://github.com/vickydarlinn/Triangles-neog",
     livePreview: "https://vicky-triangle-neog.netlify.app/",
+  },
+  {
+    category: "neog",
+    title: "Palindrome Birthday",
+    description: `In this web app, My program will take user's birth date and check it that birtdate is a palindrome. If, the entered date is not a palindtome, then it will show neasrest palindrome date`,
+    challenge: `During making this web app I play with strings and numbers`,
+    language: ["html", "css", "Javascript"],
+    img: `./asset/img/lphd7s3gcbcgcxmfjt19.jpg`,
+    imgDescription: "Palindrome Birthday Checker",
+    githubCode:
+      "https://github.com/vickydarlinn/Is-Your-Birthdate-a-Palindrome",
+    livePreview: "https://birthday-palindrome-checker-neog.netlify.app/",
   },
 ];
 
