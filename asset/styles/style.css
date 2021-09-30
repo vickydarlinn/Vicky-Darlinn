@@ -371,3 +371,15 @@ a {
   color: var(--hover_color);
   transition: 0.5s ease;
 }
+/* blog page main */
+.blog_heading a {
+  color: var(--primary_color);
+  font-size: 2rem;
+}
+.blog_img {
+  max-width: 35rem;
+  width: 100%;
+}
+.blog_text {
+  font-size: 1.8rem;
+}
