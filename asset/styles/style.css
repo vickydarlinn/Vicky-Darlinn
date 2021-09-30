@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --hover_color: #f9d05a;
+  --hover_color2: #ea533c;
+  --primary_color: #ffffff;
+  --secondary_color: #6d6d6d;
+  --bg_color: #0c0c0c;
+  --yellow: #f6cd61;
+  --orange: #fe8a71;
+  --sky: #83d0c9;
+  --pink: #f6abb6;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: var(--bg_color);
+  color: var(--primary_color);
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ############ block and section ######## */
+
+.container {
+  margin: auto;
+  max-width: 1366px;
+  padding: 2rem;
+}
+
+.block {
+  padding: 4rem 0;
+}
+
+/* ############ batch ##########  */
+
+.batch {
+  display: inline-block;
+  background-color: var(--sky);
+  font-size: 1.6rem;
+  padding: 6px 8px 6px 18px;
+  border-radius: 8px;
+  border: none;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.batch-orange {
+  background-color: var(--orange);
+}
+.batch-yellow {
+  background-color: var(--yellow);
+}
+.batch-sky {
+  background-color: var(--sky);
+}
+.batch-pink {
+  background-color: var(--pink);
+}
+
+.batch::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  left: 0.5rem;
+  border-radius: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ############## btn ########### */
+
+.btn {
+  background-color: var(--yellow);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: rgb(24, 22, 22);
+  font-weight: 500;
+}
+
+/*////////////////////////// header structure and skin */
+.nav {
+  padding: 4rem;
+}
+
+.logo {
+  height: 5rem;
+}
+.nav_list {
+  list-style: none;
+}
+.nav_item {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 5rem;
+}
+
+.nav_list .nav_item:last-child {
+  margin: 0 0 0 4rem;
+}
+
+.nav_item a {
+  color: var(--secondary_color);
+}
+.nav_list a:hover {
+  color: var(--primary_color);
+  transition: 0.3s;
+}
+.hamburger_btn {
+  color: var(--secondary_color);
+  cursor: pointer;
+  display: none !important;
+}
+
+/* header tablet & mobile design */
+@media screen and (max-width: 768px) {
+  .nav.flex {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .nav_list {
+    background-color: var(--bg_color);
+    flex-direction: column;
+    left: 50%;
+    margin: 2rem auto;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    transform-origin: top center;
+    transform: translateX(-50%) scaleY(0);
+    transition: all 0.5s ease;
+    width: 80%;
+    z-index: 2;
+  }
+
+  .nav_item {
+    margin: 2rem auto;
+  }
+
+  .nav_list .nav_item:last-child {
+    margin: 2rem 4rem;
+  }
+
+  .nav_list.active {
+    max-height: 100vh;
+    transform: translateX(-50%) scaleY(1);
+  }
+  .hamburger_btn {
+    display: inline-block !important;
+    transition: all 0.5s ease;
+  }
+  .hamburger_btn.active {
+    color: var(--primary_color);
+  }
+}
+
+/* ########## hero section ############ */
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero_heading {
+  max-width: 58ch;
+  text-align: center;
+  line-height: 1.7;
+  font-size: 3.6rem;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero_heading {
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+}
+
+/* #########project card ########## */
+
+.project_container {
+  max-width: 1024px;
+}
+
+.section_heading {
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.project_card {
+  background-color: var(--orange);
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project_img {
+  height: 25rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card_content {
+  padding: 1rem 1rem;
+}
+
+.project_title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.card_batch {
+  margin-right: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.project_description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.extended_content {
+  background-color: rgba(0, 0, 0, 0.685);
+  box-sizing: border-box;
+  height: 100%;
+  opacity: 0;
+  padding: 2rem;
+  position: absolute;
+  transform: scale(2);
+  transition: all 0.3s ease;
+  width: 100%;
+  z-index: 2;
+}
+
+.challenge {
+  display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.challenge_text {
+  color: rgba(255, 255, 255, 0.959);
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.card_btn_wrapper {
+  align-items: center;
+  bottom: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  left: 2rem;
+  position: absolute;
+  right: 2rem;
+}
+
+.project_card:hover > .extended_content {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ######## filter ########  */
+.filter {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.filter_title {
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.filter_list {
+  position: absolute;
+  left: 5rem;
+  margin: 0;
+  top: 50%;
+  transition: all 0.3s linear;
+  transform: translateY(-50%) scaleX(0);
+  overflow: hidden;
+  transform-origin: left center;
+}
+
+.filter_item {
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+  position: relative;
+  padding: 0.6rem 0;
+}
+
+.filter_item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  border-radius: 2px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.filter_item:hover::before {
+  width: 100%;
+}
+
+.filter_list.active {
+  transform: translateY(-50%) scaleX(1);
+}
+/* about me */
+.about_me_list {
+  padding: 0;
+}
+.about_me_item {
+  font-size: 3rem;
+  display: block;
+  line-height: 1.5;
+}
+.about_me_image {
+  max-width: 50rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .about_me_item {
+    font-size: 2rem;
+  }
+}
+
+/* footer */
+.footer_line {
+  display: inline-block;
+  width: 100%;
+  height: 0.5rem;
+  background-color: var(--primary_color);
+  border-radius: 100%;
+}
+.footer_icon {
+  margin: 0.5rem 3rem;
+  cursor: pointer;
+}
+.footer_icon:hover {
+  color: var(--hover_color);
+  transition: 0.5s ease;
+}

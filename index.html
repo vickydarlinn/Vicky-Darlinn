@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/styles/normalize.css" />
+    <link rel="stylesheet" href="./asset/styles/global.css" />
+    <link rel="stylesheet" href="./asset/styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c394e574a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./asset/script/data.js"></script>
+    <title>Vicky Darlinn-Homepage</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="flex space_between nav container">
+      <a href="#"
+        ><img src="images/pawprint.png" alt="logo of website" class="logo"
+      /></a>
+      <i class="fas fa-bars fa-3x hamburger_btn"></i>
+
+      <ul class="flex nav_list">
+        <li class="nav_item"><a href="#project">Project</a></li>
+        <li class="nav_item"><a href="#about_me">About Me</a></li>
+        <li class="nav_item"><a href="#">Blogs</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="container">
+      <div class="hero">
+        <h1 class="hero_heading">
+          Hello there! I am vicky sangwan. I am student who is doing web
+          development. One day, My these small cutie web apps make me Hero!
+        </h1>
+      </div>
+    </section>
+    <!-- project section -->
+    <section class="container project_container">
+      <div class="section_header">
+        <h2 class="section_heading block" id="project">Projects</h2>
+        <div class="filter">
+          <h3 class="filter_title">Filter</h3>
+          <ul class="filter_list">
+            <li class="filter_item" data-category="all">All</li>
+            <li class="filter_item" data-category="js">js</li>
+            <li class="filter_item" data-category="react">react</li>
+            <li class="filter_item" data-category="neog">neog</li>
+          </ul>
+        </div>
+      </div>
+      <div class="projects grid grid-1x3"></div>
+    </section>
+    <!-- About me -->
+    <section class="container about_me">
+      <h2 class="section_heading block" id="about_me">About Me</h2>
+      <div class="grid grid-1x2">
+        <img
+          class="about_me_image center"
+          src="./asset/img/about_me.png"
+          alt=""
+        />
+        <ul class="about_me_list">
+          <li class="about_me_item">
+            => I am curently learning <strong>Full-stack development.</strong>
+          </li>
+          <li class="about_me_item">
+            => I currently doing B.Sc from Ramjas College(Delhi University).
+          </li>
+          <li class="about_me_item">=> I am very gud boy and I have 2 cows.</li>
+        </ul>
+      </div>
+    </section>
+    <footer class="container">
+      <span class="footer_line"></span>
+      <ul class="flex center_flex">
+        <li>
+          <a href="https://twitter.com/utpalsangwan"></a
+          ><i class="footer_icon fab fa-3x fa-twitter"></i>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/utpalsangwan/"></a
+          ><i class="footer_icon fab fa-3x fa-linkedin"></i>
+        </li>
+        <li>
+          <a href="https://github.com/vickydarlinn"></a
+          ><i class="footer_icon fab fa-3x fa-github"></i>
+        </li>
+      </ul>
+    </footer>
+    <script src="./asset/script/app.js"></script>
+  </body>
+</html>
