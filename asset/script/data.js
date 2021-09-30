@@ -1,44 +1,5 @@
 const projectData = [
   {
-    category: "react",
-    title: "lorem ipsum dolor sit amet",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-    ipsam natus. Odio iste autem dignissimos pariatur molestias labore
-    unde laudantium.`,
-    challenge: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repudiandae est nobis ut adipisci earum in vel similique, assumenda ab quod aliquam rerum voluptate iusto enim laudantium, veniam ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam voluptatibus at, dolore minus minima eos! Sapiente esse officia distinctio rerum nesciunt! Amet eligendi in laudantium? Pariatur repellendus maxime dignissimos.`,
-    language: ["html", "css", "react"],
-    img: `./asset/img/lphd7s3gcbcgcxmfjt19.jpg`,
-    imgDescription: "lorem ispsum",
-    githubCode: "https://github.com/vickydarlinn",
-    livePreview: "https://twitter.com/utpalsangwan",
-  },
-  {
-    category: "react",
-    title: "lorem ipsum dolor sit amet",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-    ipsam natus. Odio iste autem dignissimos pariatur molestias labore
-    unde laudantium.`,
-    challenge: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repudiandae est nobis ut adipisci earum in vel similique, assumenda ab quod aliquam rerum voluptate iusto enim laudantium, veniam ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam voluptatibus at, dolore minus minima eos! Sapiente esse officia distinctio rerum nesciunt! Amet eligendi in laudantium? Pariatur repellendus maxime dignissimos.`,
-    language: ["html", "css", "react"],
-    img: `./asset/img/lphd7s3gcbcgcxmfjt19.jpg`,
-    imgDescription: "lorem ispsum",
-    githubCode: "https://github.com/vickydarlinn",
-    livePreview: "https://twitter.com/utpalsangwan",
-  },
-  {
-    category: "neog",
-    title: "lorem ipsum dolor sit amet",
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-    ipsam natus. Odio iste autem dignissimos pariatur molestias labore
-    unde laudantium.`,
-    challenge: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere optio repudiandae est nobis ut adipisci earum in vel similique, assumenda ab quod aliquam rerum voluptate iusto enim laudantium, veniam ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ipsam voluptatibus at, dolore minus minima eos! Sapiente esse officia distinctio rerum nesciunt! Amet eligendi in laudantium? Pariatur repellendus maxime dignissimos.`,
-    language: ["html", "css", "react"],
-    img: `./asset/img/lphd7s3gcbcgcxmfjt19.jpg`,
-    imgDescription: "lorem ispsum",
-    githubCode: "https://github.com/vickydarlinn",
-    livePreview: "https://twitter.com/utpalsangwan",
-  },
-  {
     category: "neog",
     title: "Cartoon Quiz",
     description: `Let's check your knowledge about cartoons`,
@@ -46,7 +7,7 @@ const projectData = [
     language: ["javascript"],
     img: `./asset/img/cartoonquiz.jpg`,
     imgDescription: "lorem ispsum",
-    githubCode: "https://github.com/vickydarlinn",
+    githubCode: "https://replit.com/@vickydarlinn/CartoonQuiz#index.js",
     livePreview:
       "https://replit.com/@vickydarlinn/CartoonQuiz#index.js?embed=1&output=1",
   },
