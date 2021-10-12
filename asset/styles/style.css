@@ -364,6 +364,7 @@ a {
   border-radius: 100%;
 }
 .footer_icon {
+  color: var(--primary_color);
   margin: 0.5rem 3rem;
   cursor: pointer;
 }
