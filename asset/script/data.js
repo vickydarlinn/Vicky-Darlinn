@@ -7,7 +7,7 @@ const projectData = [
     language: ["javascript"],
     img: `./asset/img/cartoonquiz.jpg`,
     imgDescription: "lorem ispsum",
-    githubCode: "https://replit.com/@vickydarlinn/CartoonQuiz#index.js",
+    githubCode: "https://github.com/vickydarlinn/CartoonQuiz",
     livePreview:
       "https://replit.com/@vickydarlinn/CartoonQuiz#index.js?embed=1&output=1",
   },
