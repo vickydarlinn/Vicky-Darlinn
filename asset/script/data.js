@@ -13,6 +13,18 @@ const projectData = [
   },
   {
     category: "neog",
+    title: "You Know me",
+    description: `Do you know about me`,
+    challenge: `I learned about basic js.`,
+    language: ["javascript"],
+    img: `./asset/img/cartoonquiz.jpg`,
+    imgDescription: "lorem ispsum",
+    githubCode: "https://github.com/vickydarlinn/You-know-me-",
+    livePreview:
+      "https://replit.com/@vickydarlinn/You-know-me#index.js?embed=1&output=1",
+  },
+  {
+    category: "neog",
     title: "Know the Fruit",
     description: `In this project, My program tells you which is this fruit name?`,
     challenge: `In this project I explore react library.`,
