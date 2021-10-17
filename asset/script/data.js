@@ -117,7 +117,7 @@ const projectData = [
     description: `In this web app, My program will take user's birth date and check it that birtdate is a palindrome. If, the entered date is not a palindtome, then it will show neasrest palindrome date`,
     challenge: `During making this web app I play with strings and numbers`,
     language: ["html", "css", "Javascript"],
-    img: `./asset/img/lphd7s3gcbcgcxmfjt19.jpg`,
+    img: `./asset/img/palindrome.jpg`,
     imgDescription: "Palindrome Birthday Checker",
     githubCode:
       "https://github.com/vickydarlinn/Is-Your-Birthdate-a-Palindrome",
