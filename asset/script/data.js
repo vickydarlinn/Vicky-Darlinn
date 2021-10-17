@@ -17,7 +17,7 @@ const projectData = [
     description: `Do you know about me`,
     challenge: `I learned about basic js.`,
     language: ["javascript"],
-    img: `./asset/img/cartoonquiz.jpg`,
+    img: `./asset/img/know_me.jpg`,
     imgDescription: "lorem ispsum",
     githubCode: "https://github.com/vickydarlinn/You-know-me-",
     livePreview:
